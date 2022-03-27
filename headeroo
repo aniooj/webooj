@@ -1,0 +1,41 @@
+<meta property="og:image" content="https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-bigrock-v1-0-9%2F359%2F1168359%2FwQXVUmub%2Fdca2cb5818b3479cb0d499081ac4594b&methods=resize%2C450%2C5000">
+
+<script>
+    var url = 'https://raw.githubusercontent.com/aniooj/webooj/main/shopifyWidget.js';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+      "backgroundColor":"#4dc247",
+      "ctaText":"Chat",
+      "borderRadius":"25",
+      "marginLeft":"0",
+      "marginBottom":"50",
+      "marginRight":"50",
+      "position":"right"
+  },
+    "chatButtonSetting:hover":{
+      "backgroundColor":"#4dc247",
+  },
+  "brandSetting":{
+      "brandName":"Rajinder Arora",
+      "brandSubTitle":"Oojal",
+      "brandImg":"https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-bigrock-v1-0-9%2F359%2F1168359%2FwQXVUmub%2Fdca2cb5818b3479cb0d499081ac4594b&methods=resize%2C450%2C5000",
+      "welcomeText":"Hi there!\nHow can I help you?",
+      "messageText":"Hello, I have a question about {{page_link}}",
+      "backgroundColor":"#0a5f54",
+      "ctaText":"Start Chat",
+      "borderRadius":"25",
+      "autoShow":false,
+      "phoneNumber":"+6598823147"
+  }
+};
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
